@@ -1,0 +1,87 @@
+header{
+	background-color:gray;
+	color:white;
+	padding:10px 0 10px 0;
+}
+
+header, nav {
+  text-align: center;
+}
+
+h1{
+	font-size:50px;
+}
+h2{
+	font-size:40px;
+}
+h3{
+	font-size:25px;
+}
+/*making h1 and h2 appear in a "pretty" font. this should affect the top banner and the main section titles*/
+/*also adding a little bit of a drop down shadow to make it pop a bit more*/
+h1,h2{
+	font-family:'Tangerine', serif;
+	text-shadow: 4px 4px 5px red;
+}
+
+body{
+	background-color:black;
+	color:white;
+}
+
+div {
+  width: 600px;
+  margin: auto;
+  padding: px;
+}
+
+/*using this to make the images circular but also a uniformed size*/
+img{
+	border-radius:50%;
+	border: 2px solid #fff;
+    width:  180px;
+    height: 180px;
+}
+/*there's only one paragraph beneath the 3 images that the font should be smaller than normal*/
+p{
+	font-family:'Times New Roman';
+	font-size: medium;
+}
+/*I had to include a btn class as well to make my links look more fresh*/
+.btn{
+	border-radius: 5px;
+	display: inline-block;
+	font-family: 'Times New Roman';
+	font-size: 16px;
+	margin: 10px;
+	padding: 5px 5px;
+}
+a{
+	background-color:gray;
+}
+
+a:link {color:white;}
+a:visited {color:lime;}
+a:hover {color:purple;}
+a:active {color:red;}
+
+/*adding a gray background to my lists, that's not quite a rectangle*/
+ul, ol{
+	font-size:20px;
+	background-color: gray;
+	border-radius:20px;
+}
+
+footer{
+	font-family:'Times New Roman';
+	padding: 10px 0 20px 0;
+}
+/*class to align text in the center*/
+.align-cent {
+  text-align: center;
+}
+
+.heart-aft::after {
+  content: "♥♥♥";
+  color: red;
+}
